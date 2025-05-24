@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fbf8ff;
 }
 /* banner section */
 .banner {
@@ -22,18 +23,29 @@
   display: flex;
   justify-content: space-between;
 }
+.banner-text{
+  background-color: transparent;
+}
+.banner-h1{
+  background-color: transparent;
+}
 
 .highlight {
   color: #f411cf;
+  background-color: transparent;
 }
 
 .banner-p {
   filter: opacity(40%);
   font-size: 27px;
+  background-color: transparent;
 }
 
 .banner-h1 {
   font-size: 75px;
+}
+.button-banner{
+  background-color: transparent;
 }
 .banner-button1 {
   background-color: #872bff;
@@ -59,6 +71,9 @@
   border-color: #f411cf;
   cursor: pointer;
 }
+.banner-img{
+  background-color: transparent;
+}
 
 /* travel book section */
 .travel-books{
@@ -66,4 +81,50 @@ padding-top: 3%;
 }
 .travelo-p {
   color: #f411cf;
+  text-align: center;
+  font-size: 20px; 
+}
+.travelo-h {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 2px;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.card p {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.6;
 }
