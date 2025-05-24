@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-
+/* banner section */
 .banner {
   width: 90%;
   height: 600px;
@@ -27,36 +27,43 @@
   color: #f411cf;
 }
 
-.banner p {
+.banner-p {
   filter: opacity(40%);
   font-size: 27px;
 }
 
-.banner h1 {
+.banner-h1 {
   font-size: 75px;
 }
-.banner-button1{
-    background-color: #872bff;
-    color: white;
-    border-color: #872bff;
-    border-radius: 25px;
-    margin-top: 20px;
-    padding: 14px 24px;
-    margin-right: 8px;
+.banner-button1 {
+  background-color: #872bff;
+  color: white;
+  border-color: #872bff;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 14px 24px;
+  margin-right: 8px;
+}
+.banner-button2 {
+  background-color: white;
+  color: black;
+  border-color: #872bff;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 14px 24px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.banner-button1:hover {
+  background-color: #f411cf;
+  border-color: #f411cf;
+  cursor: pointer;
+}
 
+/* travel book section */
+.travel-books{
+padding-top: 3%;
 }
-.banner-button2{
-    background-color:white;
-    color:black;
-    border-color: #872bff;
-    border-radius: 25px;
-    margin-top: 20px;
-    padding: 14px 24px;
-    margin-right: 8px;
-    coursor: pointer;
-}
-.banner-button1:hover{
-    background-color: #f411cf;
-    border-color: #f411cf;
-    cursor: pointer;
+.travelo-p {
+  color: #f411cf;
 }
