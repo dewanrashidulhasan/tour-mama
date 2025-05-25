@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #fbf8ff;
+  background-color: #f5eaff;
 }
 /* banner section */
 .banner {
@@ -23,10 +23,10 @@
   display: flex;
   justify-content: space-between;
 }
-.banner-text{
+.banner-text {
   background-color: transparent;
 }
-.banner-h1{
+.banner-h1 {
   background-color: transparent;
 }
 
@@ -44,7 +44,7 @@
 .banner-h1 {
   font-size: 75px;
 }
-.button-banner{
+.button-banner {
   background-color: transparent;
 }
 .banner-button1 {
@@ -71,39 +71,41 @@
   border-color: #f411cf;
   cursor: pointer;
 }
-.banner-img{
+.banner-img {
   background-color: transparent;
 }
 
 /* travel book section */
-.travel-books{
-padding-top: 3%;
+.travel-books {
+  padding-top: 3%;
 }
 .travelo-p {
   color: #f411cf;
   text-align: center;
-  font-size: 20px; 
+  font-size: 20px;
+  font-weight: 700;
 }
 .travelo-h {
   text-align: center;
-  font-size: 55px;
+  font-size: 50px;
   margin-top: 2px;
 }
 .card-container {
   display: flex;
-  gap: 30px;
+  gap: 95px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 80px;
 }
 
 .card {
   background: white;
-  width: 260px;
+  width: 400px;
+  height: 500px;
   padding: 30px 20px;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease;
 }
 
@@ -112,19 +114,195 @@ padding-top: 3%;
 }
 
 .card-icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-color: transparent;
 }
 
-.card h3 {
-  font-size: 20px;
+.card-h3 {
+  background-color: transparent;
+  font-size: 35px;
   margin-bottom: 10px;
   color: #111;
 }
 
-.card p {
-  font-size: 14px;
+.card-p {
+  background-color: transparent;
+  padding-top: 20px;
+  font-size: 17px;
   color: #888;
   line-height: 1.6;
+}
+/* extra card */
+.card-one {
+  display: flex;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 85%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin: 50px auto;
+  background-position: fixed;
+}
+
+.main-img {
+  width: 500px;
+  height: 90%;
+  background-color: transparent;
+  border-radius: 25px 0 0 25px;
+  padding: 40px 0 40px 40px;
+}
+
+.card-content {
+  padding: 50px 0 0 70px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: transparent;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.flag {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.description {
+  font-size: 19px;
+  color: #444;
+  margin-bottom: 20px;
+  max-width: 500px;
+  background-color: transparent;
+}
+
+.btn {
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.explore-section {
+  padding-top: 70px;
+}
+.explore-p {
+  color: #f411cf;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.explore-h {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 2px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  background: white;
+  padding: 35px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked + label {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.explore-button {
+  background: #8000ff;
+  color: white;
+  border: none;
+  padding: 22px 35px;
+  border-radius: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+}
+.tourist-loves {
+  padding-top: 70px;
+}
+.tourist-p {
+  color: #f411cf;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tourist-h {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 2px;
+}
+.testimonial-box {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-position: center;
+  background-position: fixed;
+  margin: 50px auto;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.author-info {
+  text-align: left;
+  font-size: 14px;
+}
+
+.rating-stars {
+  background-color: transparent;
+}
+.strong,
+.small {
+  background-color: transparent;
 }
