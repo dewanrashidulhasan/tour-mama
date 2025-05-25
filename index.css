@@ -306,3 +306,34 @@ input[type="checkbox"]:checked + label {
 .small {
   background-color: transparent;
 }
+.footer {
+  background-color: #f8f8fc;
+  border-top: 2px solid #e0d4fa;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+}
+
+.footer-left {
+  font-size: 14px;
+  color: #444;
+  background-color: transparent;
+}
+
+.footer-right {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+  
+}
+
+.social-icon:hover img {
+  transform: scale(1.1);
+}
