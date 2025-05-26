@@ -5,10 +5,14 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   background-color: #f5eaff;
 }
+body {
+  overflow-x: hidden;
+}
+
 /* banner section */
 .banner {
-  width: 90%;
-  height: 600px;
+  max-width: 90%;
+  max-height: 800px;
   background-image: url("img/hero-bg.png");
   background-repeat: repeat;
   background-size: 275px;
@@ -22,6 +26,7 @@
   background-position: fixed;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .banner-text {
   background-color: transparent;
@@ -142,7 +147,7 @@
   border-radius: 25px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 85%;
+  width: 85%;
   height: 400px;
   background-position: center;
   background-size: cover;
@@ -174,8 +179,8 @@
 }
 
 .flag {
-  width: 100px;
-  height: auto;
+  max-width: 100px;
+  max-height: auto;
   margin-bottom: 15px;
   background-color: transparent;
 }
@@ -314,7 +319,7 @@ input[type="checkbox"]:checked + label {
   justify-content: space-between;
   align-items: center;
   border-radius: 0 0 8px 8px;
-  box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .footer-left {
@@ -326,12 +331,11 @@ input[type="checkbox"]:checked + label {
 .footer-right {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
-
 .social-icon img {
-  width: 20px;
-  height: 20px;
-  
+  max-width: 20px;
+  max-height: 20px;
 }
 
 .social-icon:hover img {
