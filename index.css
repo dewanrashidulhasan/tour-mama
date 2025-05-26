@@ -17,7 +17,7 @@ body {
   background-repeat: repeat;
   background-size: 275px;
   background-position: center;
-  padding: 40px;
+  padding: 40px 5%;
   margin: 70px auto;
   border-radius: 35px;
   border-color: #872bff;
@@ -59,7 +59,7 @@ body {
   border-radius: 25px;
   margin-top: 20px;
   padding: 14px 24px;
-  margin-right: 8px;
+  margin-right: 2%;
 }
 .banner-button2 {
   background-color: white;
@@ -68,7 +68,7 @@ body {
   border-radius: 25px;
   margin-top: 20px;
   padding: 14px 24px;
-  margin-right: 8px;
+  margin-right: 2%;
   cursor: pointer;
 }
 .banner-button1:hover {
@@ -100,7 +100,7 @@ body {
   gap: 95px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 80px;
+  padding: 80px 5%;
 }
 
 .card {
@@ -140,6 +140,7 @@ body {
   color: #888;
   line-height: 1.6;
 }
+
 /* extra card */
 .card-one {
   display: flex;
@@ -160,14 +161,13 @@ body {
   height: 90%;
   background-color: transparent;
   border-radius: 25px 0 0 25px;
-  padding: 40px 0 40px 40px;
+  padding: 40px 0 40px 5%;
 }
 
 .card-content {
-  padding: 50px 0 0 70px;
+  padding: 50px 0 0 5%;
   display: flex;
   flex-direction: column;
-
   background-color: transparent;
 }
 
@@ -204,6 +204,8 @@ body {
   align-self: start;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* explore section */
 .explore-section {
   padding-top: 70px;
 }
@@ -223,8 +225,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
-  margin-top: 35px;
-  margin-bottom: 30px;
+  margin: 35px 5% 30px 5%;
 }
 
 input[type="checkbox"] {
@@ -259,6 +260,8 @@ input[type="checkbox"]:checked + label {
   display: block;
   margin: 0 auto;
 }
+
+/* tourist section */
 .tourist-loves {
   padding-top: 70px;
 }
@@ -311,10 +314,12 @@ input[type="checkbox"]:checked + label {
 .small {
   background-color: transparent;
 }
+
+/* footer */
 .footer {
   background-color: #f8f8fc;
   border-top: 2px solid #e0d4fa;
-  padding: 16px 24px;
+  padding: 16px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
